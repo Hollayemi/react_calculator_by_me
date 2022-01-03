@@ -1,0 +1,10 @@
+.myCalc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width:600px;
+    overflow: hidden !important;
+    padding-top:50px;
+    border: 1px solid #000;
+}

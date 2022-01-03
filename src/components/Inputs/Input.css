@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.inputSide{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border:1px solid rgb(220, 220, 220)    
+}
+.inputSide .myInput{
+    width: 90% !important;
+    height:70px;
+    text-align: right;
+    padding-right:23px;
+    font-size:30px;
+    border: none;
+    border:none;
+}
+.inputSide p{
+    text-align: right;
+    width: 90%;
+    padding:20px;
+}
+.LastOperation{
+    padding:0px !important;
+    position: absolute;
+    left:5px;
+    text-align:  left !important;
+    font-size:12px;
+    top:40px;
+    color:green;
+    font-style: italic;
+}
+.operationDetails{
+    position: relative;
+    width:100%;
+}

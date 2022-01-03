@@ -1,0 +1,9 @@
+.funcKeyHorz{
+    flex-flow: column;
+}
+.numbRow{
+    width:100%;
+}
+.oprKeysSec{
+    width:20%;
+}

@@ -1,0 +1,44 @@
+.advBnSec{
+    position: absolute;
+    width:200px;
+    right:-160px;
+    height:100%;
+    display: flex;
+    box-shadow:-5px -3px 5px rgba(0, 0, 0, 0.124);
+
+    transition: .5s ease-in-out;
+
+}
+.displayArrow{
+    height:100%;
+    background-color: rgb(223, 221, 221);
+    width:40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+
+    animation: enable 0.3s linear;
+}
+.advKeyDiv{
+    margin-left:30px;
+}
+
+.openAdv{
+    right:0px;
+}
+
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.6);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
